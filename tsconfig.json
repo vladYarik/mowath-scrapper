@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2020",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*.ts"
+, "src/index.js", "src/modules/stream/stream.controller.js"    ]
+}

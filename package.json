@@ -1,0 +1,25 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.8.6",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
